@@ -1,23 +1,25 @@
 class TennisGame
-  
-  def initialize(p1Name, p2Name)
-    @p1Name = p1Name
-    @p2Name = p2Name
+
+  def initialize(p1, p2)
+    @p1 = p1
+    @p2 = p2
     @p1pts = 0
     @p2pts = 0
   end
 
-  def point(pName)
-    if pName == @p1Name
+  def point(p)
+    if p == @p1
       @p1pts += 1
     else
       @p2pts += 1
     end
   end
 
+ # rubocop:disable all
   def score
     result = ""
-    temp=0
+    temp = 0
+
     if (@p1pts==@p2pts)
       result = {
           0 => "Love-All",
@@ -28,20 +30,20 @@ class TennisGame
     elsif (@p1pts>=4 or @p2pts>=4)
       minusResult = @p1pts-@p2pts
       if (minusResult==1)
-        result = "Advantage " + @p1Name
+        result = "Advantage " + @p1
       elsif (minusResult ==-1)
-        result ="Advantage " + @p2Name
+        result ="Advantage " + @p2
       elsif (minusResult>=2)
-        result = "Win for " + @p1Name
+        result = "Win for " + @p1
       else
-        result ="Win for " + @p2Name
+        result ="Win for " + @p2
       end
     else
       (1...3).each do |i|
         if (i==1)
           temp = @p1pts
         else
-          result+=" - "
+          result+="-"
           temp = @p2pts
         end
         result += {
