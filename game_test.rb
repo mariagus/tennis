@@ -1,8 +1,8 @@
+ # rubocop:disable all
 require 'test/unit'
 require_relative './game'
 require './test_cases'
 
-# rubocop:disable Metrics/AbcSize
 class TennisGameTest < Test::Unit::TestCase
   def test_runner
     TEST_CASES.each do |data|
@@ -15,4 +15,3 @@ class TennisGameTest < Test::Unit::TestCase
     end
   end
 end
-# rubocop:enable Metrics/AbcSize

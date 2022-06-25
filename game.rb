@@ -1,3 +1,4 @@
+ # rubocop:disable all
 class TennisGame
   def initialize(p1, p2)
     @p1 = p1
@@ -14,7 +15,6 @@ class TennisGame
     end
   end
 
- # rubocop:disable all
   def score
     result = ""
     temp = 0
