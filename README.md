@@ -1,6 +1,16 @@
 # tennis refactor challenge
 
-For info re tennis rules, including scoring: https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-scoring-rules.html
+POINT SYSTEM
+0 points = Love
+1 point = 15
+2 points = 30
+3 points = 40
+Tied score = All
+40-40 = Deuce
+Server wins deuce point = Ad-In
+Receiver wins deuce point = Ad-Out
+
+For more info re tennis rules: https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-scoring-rules.html
 
 ## installation
 
