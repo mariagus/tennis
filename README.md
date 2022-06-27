@@ -1,6 +1,21 @@
-# tennis refactor challenge
+# Tennis Refactor Challenge
 
-## POINT SYSTEM
+## Installation
+
+```
+git clone git@github.com:mariagus/tennis.git
+```
+```
+bundle install
+```
+
+## running tests
+
+```
+ruby game_test.rb
+```
+
+### TENNIS POINT SYSTEM
 0 points = Love<br>
 1 point = 15<br>
 2 points = 30<br>
@@ -11,18 +26,3 @@ Server wins deuce point = Ad-In<br>
 Receiver wins deuce point = Ad-Out<br>
 
 For more info re tennis rules: https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-scoring-rules.html
-
-## installation
-
-```
-git clone git@github.com:mariagus/tennis.git
-```
-```
-  bundle install
-```
-
-## running tests
-
-```
-  ruby game_test.rb
-```
