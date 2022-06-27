@@ -1,6 +1,6 @@
 # tennis refactor challenge
 
-POINT SYSTEM:<br>
+## POINT SYSTEM
 0 points = Love<br>
 1 point = 15<br>
 2 points = 30<br>
