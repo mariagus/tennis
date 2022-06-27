@@ -12,7 +12,7 @@ bundle install
 ## running tests
 
 ```
-ruby game_test.rb
+bundle exec ruby game_test.rb
 ```
 
 ### TENNIS POINT SYSTEM
