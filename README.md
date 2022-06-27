@@ -1,8 +1,12 @@
-# tennis 
+# tennis refactor challenge
 
-For the rules, including scoring: https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-scoring-rules.html
+For info re tennis rules, including scoring: https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-scoring-rules.html
 
-# tests
+# running tests
+
+```
+  bundle install
+```
 
 ```
   ruby game_test.rb
